@@ -404,7 +404,10 @@ h1 {
 
 .tone-section {
   padding: 220px 0;
-  border-top: 1px solid rgba(255,255,255,0.06);
+
+  background: #8D8075;
+
+  border-top: 1px solid rgba(255,255,255,0.04);
 }
 
 .tone-grid {
@@ -425,13 +428,15 @@ h1 {
   letter-spacing: -0.06em;
 
   max-width: 520px;
+
+  color: #F5F1EA;
 }
 
 .tone-intro {
   font-size: 1.35rem;
   line-height: 1.9;
 
-  color: #B8B8BE;
+  color: rgba(245,241,234,0.78);
 
   max-width: 760px;
 
@@ -443,7 +448,9 @@ h1 {
 
   border: 1px solid rgba(255,255,255,0.08);
 
-  background: rgba(255,255,255,0.015);
+  background: rgba(255,255,255,0.03);
+
+  backdrop-filter: blur(12px);
 
   margin-bottom: 56px;
 }
@@ -457,7 +464,7 @@ h1 {
 
   font-size: 0.78rem;
 
-  color: #7D7D84;
+  color: rgba(255,255,255,0.45);
 }
 
 blockquote {
@@ -472,6 +479,8 @@ blockquote {
   letter-spacing: -0.04em;
 
   max-width: 900px;
+
+  color: #F5F1EA;
 }
 
 .tone-principles {
@@ -487,9 +496,11 @@ blockquote {
 
   border: 1px solid rgba(255,255,255,0.10);
 
-  background: rgba(255,255,255,0.02);
+  background: rgba(255,255,255,0.03);
 
-  color: #E9E5DE;
+  color: #F5F1EA;
+
+  backdrop-filter: blur(10px);
 }
 
 @media (max-width: 1024px) {
@@ -500,7 +511,6 @@ blockquote {
   }
 
 }
-
 .mindset-section {
   padding: 220px 0;
   border-top: 1px solid rgba(255,255,255,0.06);
