@@ -310,3 +310,94 @@ h1 {
   }
 
 }
+
+.difference-section {
+  padding: 220px 0;
+  border-top: 1px solid rgba(255,255,255,0.06);
+}
+
+.difference-header {
+  margin-bottom: 120px;
+}
+
+.difference-header h2 {
+  font-family: 'Petrona', serif;
+
+  font-size: clamp(4rem, 8vw, 7rem);
+
+  line-height: 0.9;
+
+  font-weight: 300;
+
+  letter-spacing: -0.06em;
+
+  max-width: 700px;
+}
+
+.difference-grid {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 120px;
+  align-items: start;
+}
+
+.difference-intro p {
+  font-size: 1.4rem;
+  line-height: 1.8;
+
+  color: #B8B8BE;
+
+  max-width: 520px;
+}
+
+.difference-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.difference-card {
+  padding-bottom: 48px;
+
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.card-number {
+  margin-bottom: 24px;
+
+  font-size: 0.8rem;
+  letter-spacing: 0.18em;
+
+  text-transform: uppercase;
+
+  color: #7D7D84;
+}
+
+.difference-card h3 {
+  font-family: 'Petrona', serif;
+
+  font-size: clamp(2.2rem, 4vw, 3.4rem);
+
+  line-height: 0.95;
+
+  font-weight: 300;
+
+  margin-bottom: 20px;
+}
+
+.difference-card p {
+  max-width: 560px;
+
+  line-height: 1.9;
+
+  color: #9A9AA2;
+}
+
+@media (max-width: 1024px) {
+
+  .difference-grid {
+    grid-template-columns: 1fr;
+    gap: 72px;
+  }
+
+}
