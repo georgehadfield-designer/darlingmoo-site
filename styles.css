@@ -969,12 +969,30 @@ blockquote {
     gap: 80px;
   }
 
-  .type-direction .serif-example {
-  color: rgba(20,20,20,0.14);
+.type-direction .serif-example {
+  font-family: 'Petrona', serif;
+
+  font-size: clamp(5rem, 10vw, 10rem);
+
+  line-height: 0.9;
+
+  font-weight: 300;
+
+  letter-spacing: -0.07em;
+
+  color: #141414;
 }
 
 .type-direction .sans-example {
-  color: rgba(20,20,20,0.18);
+  font-family: 'DM Sans', sans-serif;
+
+  font-size: clamp(3rem, 6vw, 5rem);
+
+  font-weight: 300;
+
+  letter-spacing: -0.04em;
+
+  color: #141414;
 }
 
 .type-direction .type-note {
