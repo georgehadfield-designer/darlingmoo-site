@@ -1051,158 +1051,72 @@ blockquote {
 
 }
 
-.brand-context {
-  padding: 240px 0;
+.final-thought {
+  position: relative;
+
+  padding: 320px 0;
+
+  overflow: hidden;
 
   border-top: 1px solid rgba(255,255,255,0.06);
 }
 
-.context-header {
-  margin-bottom: 120px;
+.final-gradient {
+  position: absolute;
+
+  inset: -20%;
+
+  background:
+    radial-gradient(
+      circle at 50% 50%,
+      rgba(201,194,182,0.12),
+      transparent 52%
+    );
+
+  filter: blur(120px);
 }
 
-.context-header h2 {
+.final-inner {
+  position: relative;
+  z-index: 2;
+
+  max-width: 1100px;
+}
+
+.final-inner h2 {
   font-family: 'Petrona', serif;
 
-  font-size: clamp(4rem, 7vw, 6rem);
+  font-size: clamp(5rem, 9vw, 8rem);
 
-  line-height: 0.92;
+  line-height: 0.88;
 
   font-weight: 300;
 
-  letter-spacing: -0.05em;
+  letter-spacing: -0.07em;
 
-  max-width: 760px;
+  max-width: 980px;
 
-  margin-bottom: 32px;
+  margin-bottom: 40px;
 }
 
-.context-header p {
-  max-width: 720px;
+.final-inner p {
+  max-width: 760px;
 
-  font-size: 1.3rem;
+  font-size: 1.35rem;
 
   line-height: 1.9;
 
-  color: #A5A5AC;
-}
-
-.context-grid {
-  display: grid;
-
-  grid-template-columns: repeat(12, 1fr);
-
-  gap: 24px;
-
-  padding: 0 24px;
-}
-
-.context-item {
-  position: relative;
-
-  overflow: hidden;
-
-  min-height: 720px;
-
-  border-radius: 32px;
-
-  grid-column: span 4;
-}
-
-.context-item.large {
-  grid-column: span 8;
-}
-
-.context-item img {
-  position: absolute;
-  inset: 0;
-
-  width: 100%;
-  height: 100%;
-
-  object-fit: cover;
-
-  transition:
-    transform 1s ease,
-    filter 1s ease;
-
-  filter:
-    brightness(0.42)
-    saturate(0.78)
-    contrast(1.04);
-}
-
-.context-item:hover img {
-  transform: scale(1.04);
-
-  filter:
-    brightness(0.52)
-    saturate(0.88)
-    contrast(1.05);
-}
-
-.context-overlay {
-  position: absolute;
-  inset: 0;
-
-  background:
-    linear-gradient(
-      to top,
-      rgba(8,8,9,0.96) 0%,
-      rgba(8,8,9,0.36) 45%,
-      rgba(8,8,9,0.08) 100%
-    );
-}
-
-.context-content {
-  position: absolute;
-
-  left: 40px;
-  right: 40px;
-  bottom: 40px;
-
-  z-index: 2;
-}
-
-.context-content span {
-  display: block;
-
-  margin-bottom: 20px;
-
-  font-size: 0.75rem;
-
-  letter-spacing: 0.18em;
-
-  text-transform: uppercase;
-
-  color: rgba(255,255,255,0.65);
-}
-
-.context-content h3 {
-  font-family: 'Petrona', serif;
-
-  font-size: clamp(2.4rem, 4vw, 4rem);
-
-  line-height: 0.95;
-
-  font-weight: 300;
-
-  letter-spacing: -0.04em;
-
-  max-width: 520px;
+  color: #A6A6AD;
 }
 
 @media (max-width: 1024px) {
 
-  .context-grid {
-    grid-template-columns: 1fr;
-    padding: 0 24px;
+  .final-thought {
+    padding: 220px 0;
   }
 
-  .context-item,
-  .context-item.large {
-    grid-column: span 1;
-    min-height: 520px;
+  .final-inner h2 {
+    font-size: 4rem;
   }
 
 }
