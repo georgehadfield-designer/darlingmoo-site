@@ -849,7 +849,7 @@ blockquote {
 }
 
 .type-note span {
-  color: rgba(20,20,20,0.45);
+  color: rgba(20,20,20,0.56);
 }
 
 .type-note h3 {
@@ -857,7 +857,11 @@ blockquote {
 }
 
 .type-note p {
-  color: rgba(20,20,20,0.72);
+  color: rgba(20,20,20,0.86);
+
+  line-height: 1.9;
+
+  font-weight: 400;
 }
 
 .type-header {
