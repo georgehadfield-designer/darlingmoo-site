@@ -827,7 +827,7 @@ blockquote {
 .type-direction {
   padding: 240px 0;
 
-  border-top: 1px solid rgba(255,255,255,0.06);
+  border-top: 1px solid rgba(20,20,20,0.08);
 
   background: #EAE5DD;
 
@@ -846,64 +846,9 @@ blockquote {
   color: rgba(20,20,20,0.72);
 }
 
-.serif-example {
-  color: #141414;
-}
+/* BIG TYPE SPECIMENS */
 
-.sans-example {
-  color: rgba(20,20,20,0.65);
-}
-
-.type-note {
-  border-bottom: 1px solid rgba(20,20,20,0.10);
-}
-
-.type-note span {
-  color: rgba(20,20,20,0.45);
-}
-
-.type-note h3 {
-  color: #141414;
-}
-
-.type-note p {
-  color: rgba(20,20,20,0.72);
-}
-
-.type-header {
-  margin-bottom: 120px;
-}
-
-.type-header h2 {
-  font-family: 'Petrona', serif;
-
-  font-size: clamp(4rem, 7vw, 6rem);
-
-  line-height: 0.92;
-
-  font-weight: 300;
-
-  letter-spacing: -0.05em;
-
-  max-width: 760px;
-}
-
-.type-grid {
-  display: grid;
-  grid-template-columns: 1fr 0.9fr;
-
-  gap: 140px;
-
-  align-items: start;
-}
-
-.type-specimen {
-  display: flex;
-  flex-direction: column;
-  gap: 80px;
-}
-
-.serif-example {
+.type-direction .serif-example {
   font-family: 'Petrona', serif;
 
   font-size: clamp(5rem, 10vw, 10rem);
@@ -914,10 +859,10 @@ blockquote {
 
   letter-spacing: -0.07em;
 
-  color: #F2EFE9;
+  color: rgba(20,20,20,0.16);
 }
 
-.sans-example {
+.type-direction .sans-example {
   font-family: 'DM Sans', sans-serif;
 
   font-size: clamp(3rem, 6vw, 5rem);
@@ -926,71 +871,27 @@ blockquote {
 
   letter-spacing: -0.04em;
 
-  color: #B6B6BD;
+  color: rgba(20,20,20,0.24);
 }
 
-.type-notes {
-  display: flex;
-  flex-direction: column;
-  gap: 56px;
-}
+/* NOTES */
 
 .type-note {
-  display: grid;
-  grid-template-columns: 48px 1fr;
-
-  gap: 28px;
-
-  padding-bottom: 40px;
-
-  border-bottom: 1px solid rgba(255,255,255,0.08);
+  border-bottom: 1px solid rgba(20,20,20,0.12);
 }
 
 .type-note span {
-  font-size: 0.78rem;
-
-  letter-spacing: 0.18em;
-
-  color: #7D7D84;
+  color: rgba(20,20,20,0.42);
 }
 
 .type-note h3 {
-  font-family: 'Petrona', serif;
-
-  font-size: 2rem;
-
-  font-weight: 300;
-
-  margin-bottom: 16px;
+  color: #141414;
 }
 
 .type-note p {
-  color: #A0A0A7;
+  color: rgba(20,20,20,0.72);
 
   line-height: 1.9;
-
-  max-width: 520px;
-}
-
-@media (max-width: 1024px) {
-
-  .type-grid {
-    grid-template-columns: 1fr;
-    gap: 80px;
-  }
-
-  .type-direction .serif-example {
-  color: rgba(20,20,20,0.14);
-}
-
-.type-direction .sans-example {
-  color: rgba(20,20,20,0.18);
-}
-
-.type-direction .type-note {
-  border-bottom: 1px solid rgba(20,20,20,0.16);
-}
-
 }
 
 .colour-direction {
