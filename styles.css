@@ -248,3 +248,65 @@ h1 {
 .editorial-content p {
   max-width: 680px;
 }
+
+.essence-section {
+  padding: 180px 0;
+  border-top: 1px solid rgba(255,255,255,0.06);
+}
+
+.essence-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 120px;
+}
+
+.essence-left h2 {
+  font-family: 'Petrona', serif;
+
+  font-size: clamp(4rem, 7vw, 6rem);
+
+  line-height: 0.92;
+
+  font-weight: 300;
+
+  letter-spacing: -0.05em;
+}
+
+.essence-intro {
+  font-size: 1.25rem;
+  line-height: 1.9;
+
+  margin-bottom: 56px;
+
+  max-width: 700px;
+}
+
+.trait-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.trait-pill {
+  padding: 18px 24px;
+
+  border: 1px solid rgba(255,255,255,0.10);
+  border-radius: 999px;
+
+  background: rgba(255,255,255,0.02);
+
+  font-size: 0.95rem;
+
+  color: #E9E5DE;
+
+  backdrop-filter: blur(12px);
+}
+
+@media (max-width: 1024px) {
+
+  .essence-grid {
+    grid-template-columns: 1fr;
+    gap: 64px;
+  }
+
+}
