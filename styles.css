@@ -1190,3 +1190,11 @@ blockquote {
   }
 
 }
+
+.type-direction .serif-example {
+  color: #141414 !important;
+}
+
+.type-direction .sans-example {
+  color: #141414 !important;
+}
