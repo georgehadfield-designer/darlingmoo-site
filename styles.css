@@ -969,6 +969,18 @@ blockquote {
     gap: 80px;
   }
 
+  .type-direction .serif-example {
+  color: rgba(20,20,20,0.14);
+}
+
+.type-direction .sans-example {
+  color: rgba(20,20,20,0.18);
+}
+
+.type-direction .type-note {
+  border-bottom: 1px solid rgba(20,20,20,0.16);
+}
+
 }
 
 .colour-direction {
