@@ -818,6 +818,46 @@ blockquote {
   padding: 240px 0;
 
   border-top: 1px solid rgba(255,255,255,0.06);
+
+  background: #EAE5DD;
+
+  color: #141414;
+}
+
+.type-direction .eyebrow {
+  color: rgba(20,20,20,0.55);
+}
+
+.type-header h2 {
+  color: #141414;
+}
+
+.type-header p {
+  color: rgba(20,20,20,0.72);
+}
+
+.serif-example {
+  color: #141414;
+}
+
+.sans-example {
+  color: rgba(20,20,20,0.65);
+}
+
+.type-note {
+  border-bottom: 1px solid rgba(20,20,20,0.10);
+}
+
+.type-note span {
+  color: rgba(20,20,20,0.45);
+}
+
+.type-note h3 {
+  color: #141414;
+}
+
+.type-note p {
+  color: rgba(20,20,20,0.72);
 }
 
 .type-header {
