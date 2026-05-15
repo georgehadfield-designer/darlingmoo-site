@@ -1627,3 +1627,68 @@ blockquote {
       #EEE1D0 100%
     );
 }
+
+/* ------------------------------------------------ */
+/* ROUTE 02 FULL BACKGROUND OVERRIDES */
+/* ------------------------------------------------ */
+
+.route-02,
+.route-02 body {
+  background: #F5F1EB !important;
+
+  color: #2D2B28 !important;
+}
+
+/* DARK SECTIONS RESET */
+
+.route-02 .hero,
+.route-02 .mindset-section,
+.route-02 .personality-sliders,
+.route-02 .visual-transition,
+.route-02 .colour-direction,
+.route-02 .final-thought {
+  background: #F5F1EB !important;
+}
+
+/* TYPOGRAPHY SECTION */
+
+.route-02 .type-direction {
+  background: #E8DDD0 !important;
+}
+
+/* TONE SECTION */
+
+.route-02 .tone-section {
+  background: #DCC7B3 !important;
+}
+
+/* REMOVE DARK GRADIENTS */
+
+.route-02 .hero::before,
+.route-02 .final-gradient {
+  opacity: 0.25;
+}
+
+/* TEXT */
+
+.route-02 h1,
+.route-02 h2,
+.route-02 h3,
+.route-02 blockquote {
+  color: #2D2B28 !important;
+}
+
+.route-02 p,
+.route-02 .hero-copy,
+.route-02 .tone-intro,
+.route-02 .mindset-intro,
+.route-02 .type-note p,
+.route-02 .final-inner p {
+  color: #5F5A54 !important;
+}
+
+/* EYEBROWS */
+
+.route-02 .eyebrow {
+  color: rgba(45,43,40,0.48) !important;
+}
