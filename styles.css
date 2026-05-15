@@ -1319,3 +1319,193 @@ blockquote {
 
   color: #FFFFFF;
 }
+
+/* ------------------------------------------------ */
+/* ROUTE 02 */
+/* ------------------------------------------------ */
+
+.route-02 {
+  background: #F5F1EB;
+
+  color: #171717;
+}
+
+/* TYPOGRAPHY */
+
+.route-02 body,
+.route-02 p,
+.route-02 div,
+.route-02 span,
+.route-02 a,
+.route-02 button {
+  font-family: 'Manrope', sans-serif;
+}
+
+.route-02 h1,
+.route-02 h2,
+.route-02 h3,
+.route-02 blockquote,
+.route-02 .serif-example {
+  font-family: 'Instrument Serif', serif;
+}
+
+/* HERO */
+
+.route-02 .hero {
+  background:
+    radial-gradient(circle at top left, rgba(215,198,180,0.26), transparent 34%),
+    linear-gradient(
+      135deg,
+      #F7F3ED 0%,
+      #EEE6DB 100%
+    );
+}
+
+.route-02 .hero::before {
+  opacity: 0.5;
+}
+
+.route-02 h1 {
+  color: #171717;
+
+  letter-spacing: -0.05em;
+
+  font-size: clamp(4.5rem, 9vw, 7.5rem);
+
+  max-width: 920px;
+}
+
+.route-02 .hero-copy {
+  color: rgba(20,20,20,0.68);
+
+  font-size: 1.25rem;
+}
+
+.route-02 .eyebrow {
+  color: rgba(20,20,20,0.48);
+}
+
+.route-02 .hero-label,
+.route-02 .route-button {
+  background: rgba(255,255,255,0.72);
+
+  border: 1px solid rgba(20,20,20,0.08);
+
+  color: #171717;
+
+  backdrop-filter: blur(18px);
+}
+
+/* GLOBAL SECTIONS */
+
+.route-02 section {
+  border-top: 1px solid rgba(20,20,20,0.06);
+}
+
+.route-02 p {
+  color: rgba(20,20,20,0.72);
+}
+
+/* PILLS */
+
+.route-02 .trait-pill,
+.route-02 .principle {
+  background: rgba(20,20,20,0.03);
+
+  border: 1px solid rgba(20,20,20,0.08);
+
+  color: #171717;
+}
+
+/* SLIDERS */
+
+.route-02 .slider-track {
+  background: rgba(20,20,20,0.08);
+}
+
+.route-02 .slider-fill {
+  background: linear-gradient(
+    to right,
+    #B58B67,
+    #D8B89B
+  );
+}
+
+.route-02 .slider-fill::after {
+  background: #B58B67;
+
+  box-shadow:
+    0 0 0 6px rgba(181,139,103,0.12),
+    0 0 24px rgba(181,139,103,0.22);
+}
+
+/* VISUAL TRANSITION */
+
+.route-02 .visual-overlay {
+  background:
+    linear-gradient(
+      to top,
+      rgba(245,241,235,0.98) 0%,
+      rgba(245,241,235,0.74) 24%,
+      rgba(245,241,235,0.10) 100%
+    );
+}
+
+.route-02 .visual-content h2 {
+  color: #171717;
+}
+
+.route-02 .visual-content p {
+  color: rgba(20,20,20,0.68);
+}
+
+/* TYPOGRAPHY SECTION */
+
+.route-02 .type-direction {
+  background: #E7DDD1;
+
+  color: #171717;
+
+  border-top: 1px solid rgba(20,20,20,0.06);
+}
+
+.route-02 .type-direction h2,
+.route-02 .type-direction h3 {
+  color: #171717;
+}
+
+.route-02 .type-direction p {
+  color: rgba(20,20,20,0.72);
+}
+
+.route-02 .serif-example {
+  color: rgba(20,20,20,0.16);
+}
+
+.route-02 .sans-example {
+  color: rgba(20,20,20,0.28);
+}
+
+.route-02 .type-note {
+  border-bottom: 1px solid rgba(20,20,20,0.10);
+}
+
+/* FINAL SECTION */
+
+.route-02 .final-thought {
+  background:
+    linear-gradient(
+      180deg,
+      #F5F1EB 0%,
+      #EFE5D8 100%
+    );
+}
+
+.route-02 .final-gradient {
+  background:
+    radial-gradient(
+      circle at 50% 50%,
+      rgba(181,139,103,0.16),
+      transparent 56%
+    );
+}
