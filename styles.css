@@ -1509,3 +1509,121 @@ blockquote {
       transparent 56%
     );
 }
+
+/* ------------------------------------------------ */
+/* ROUTE 02 COLOUR OVERRIDES */
+/* ------------------------------------------------ */
+
+.route-02 {
+  --bg: #F5F1EB;
+  --surface: #EFE5D8;
+  --surface-2: #E4D4C3;
+
+  --accent: #A97458;
+  --accent-soft: #C7A58A;
+
+  --text: #2D2B28;
+  --muted: #5F5A54;
+
+  background: var(--bg);
+
+  color: var(--text);
+}
+
+/* BODY COPY */
+
+.route-02 p,
+.route-02 .hero-copy,
+.route-02 .tone-intro,
+.route-02 .mindset-intro,
+.route-02 .type-note p,
+.route-02 .final-inner p {
+  color: var(--muted);
+}
+
+/* HEADINGS */
+
+.route-02 h1,
+.route-02 h2,
+.route-02 h3,
+.route-02 blockquote {
+  color: var(--text);
+}
+
+/* EYEBROWS */
+
+.route-02 .eyebrow {
+  color: rgba(45,43,40,0.48);
+}
+
+/* HERO */
+
+.route-02 .hero {
+  background:
+    radial-gradient(circle at top left, rgba(199,165,138,0.22), transparent 34%),
+    linear-gradient(
+      135deg,
+      #F7F3ED 0%,
+      #EEE3D4 100%
+    );
+}
+
+/* PILLS */
+
+.route-02 .trait-pill,
+.route-02 .principle {
+  background: rgba(169,116,88,0.06);
+
+  border: 1px solid rgba(169,116,88,0.14);
+
+  color: var(--text);
+}
+
+/* SLIDERS */
+
+.route-02 .slider-fill {
+  background: linear-gradient(
+    to right,
+    #A97458,
+    #D1AE95
+  );
+}
+
+.route-02 .slider-fill::after {
+  background: #A97458;
+}
+
+/* TYPOGRAPHY SECTION */
+
+.route-02 .type-direction {
+  background: #E8DDD0;
+}
+
+/* TONE SECTION */
+
+.route-02 .tone-section {
+  background: #DCC7B3;
+}
+
+.route-02 .tone-section p,
+.route-02 .tone-section blockquote,
+.route-02 .tone-section h2 {
+  color: #2D2B28;
+}
+
+.route-02 .tone-example {
+  background: rgba(255,255,255,0.18);
+
+  border: 1px solid rgba(45,43,40,0.08);
+}
+
+/* FINAL SECTION */
+
+.route-02 .final-thought {
+  background:
+    linear-gradient(
+      180deg,
+      #F5F1EB 0%,
+      #EEE1D0 100%
+    );
+}
